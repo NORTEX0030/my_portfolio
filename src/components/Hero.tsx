@@ -29,19 +29,12 @@ const Hero = () => {
         </h1>
         
         <h2 className="text-2xl md:text-3xl text-secondary mb-6 animate-slide-in-up" style={{ animationDelay: '0.2s' }}>
-          DevOps Engineer
+             DevOps Engineer | Cloud & Automation Enthusiast
         </h2>
         
-        <p className="text-lg text-muted-foreground mb-2 animate-slide-in-up" style={{ animationDelay: '0.4s' }}>
-          <Mail className="inline-block w-5 h-5 mr-2" />
-          yadavnitesh2003@gmail.com
-        </p>
         
         <p className="text-base md:text-lg text-muted-foreground max-w-3xl mx-auto mb-8 leading-relaxed animate-slide-in-up" style={{ animationDelay: '0.6s' }}>
-          DevOps Engineer with hands-on experience in CI/CD pipelines, Kubernetes, and cloud infrastructure automation
-          using AWS and Terraform. Skilled in implementing secure, scalable, and reproducible systems through GitOps,
-          Jenkins, and Vault. Passionate about delivering high-availability deployments, monitoring, and DevSecOps
-          practices in agile environments.
+           Designing scalable, secure, and automated infrastructure using AWS, Kubernetes, and Terraform. Focused on streamlining code-to-cloud workflows with CI/CD, observability, and DevSecOps best practices.
         </p>
         
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center animate-slide-in-up" style={{ animationDelay: '0.8s' }}>

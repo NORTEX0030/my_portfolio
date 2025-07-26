@@ -37,10 +37,10 @@ const Contact = () => {
 
     emailjs
       .sendForm(
-        "service_clu17ph", // Replace with your EmailJS Service ID
-        "template_11tz03q", // Replace with your EmailJS Template ID
-        formRef.current,
-        "JnKo7onELf5ALMJLF" // Replace with your EmailJS Public Key
+         import.meta.env.VITE_EMAILJS_SERVICE_ID,
+         import.meta.env.VITE_EMAILJS_TEMPLATE_ID,
+         formRef.current,
+         import.meta.env.VITE_EMAILJS_PUBLIC_KEY
       )
       .then(() => {
         setStatus("success");

@@ -14,62 +14,62 @@ import {
 const Skills = () => {
   const skillCategories = [
     {
-      title: "CI/CD",
-      skills: ["GitHub Actions", "Jenkins"],
+      title: "CI/CD Pipelines",
+      skills: ["GitHub Actions", "GitLab CI", "Jenkins", "CircleCI"],
       icon: <GitBranch className="w-8 h-8" />,
       color: "text-primary"
     },
     {
-      title: "Cloud",
-      skills: ["AWS – EC2, S3, IAM, EKS"],
+      title: "Cloud Platforms",
+      skills: ["AWS (EC2, S3, IAM, EKS)", "GCP", "Cloudflare"],
       icon: <Cloud className="w-8 h-8" />,
       color: "text-secondary"
     },
     {
-      title: "IaC",
+      title: "Infrastructure as Code (IaC)",
       skills: ["Terraform", "Ansible", "AWS CloudFormation"],
       icon: <Settings className="w-8 h-8" />,
       color: "text-accent"
     },
     {
-      title: "Containers",
+      title: "Containerization & Orchestration",
       skills: ["Docker", "Kubernetes", "Helm"],
       icon: <Container className="w-8 h-8" />,
       color: "text-primary"
     },
     {
       title: "GitOps",
-      skills: ["Git", "GitLab", "ArgoCD"],
+      skills: ["Git", "ArgoCD", "FluxCD"],
       icon: <Github className="w-8 h-8" />,
       color: "text-secondary"
     },
     {
-      title: "Monitoring",
-      skills: ["Grafana", "Prometheus", "CloudWatch"],
+      title: "Monitoring & Observability",
+      skills: ["Grafana", "Prometheus", "CloudWatch", "Loki"],
       icon: <Activity className="w-8 h-8" />,
       color: "text-accent"
     },
     {
-      title: "Security & DevSecOps",
+      title: "DevSecOps & Security",
       skills: ["Trivy", "SonarQube", "HashiCorp Vault"],
       icon: <Shield className="w-8 h-8" />,
       color: "text-primary"
     },
     {
-      title: "Agile & Project Tools",
-      skills: ["Agile", "Scrum", "Jira"],
+      title: "Project & Agile Tools",
+      skills: ["Jira","Scrum"],
       icon: <Database className="w-8 h-8" />,
       color: "text-secondary"
     },
     {
-      title: "Scripting",
-      skills: ["Python", "Bash", "Shell", "YAML"],
+      title: "Programming & Scripting",
+      skills: ["Python", "Bash", "Shell", "YAML", "JSON"],
       icon: <Code className="w-8 h-8" />,
       color: "text-accent"
     },
     {
-      title: "Version Control",
-      skills: ["Git", "GitHub", "Bitbucket"],
+      title: "Version Control Systems",
+      skills: ["Git", "GitHub", "GitLab", "Bitbucket"],
       icon: <Server className="w-8 h-8" />,
       color: "text-primary"
     }
