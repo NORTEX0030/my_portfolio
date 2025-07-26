@@ -62,7 +62,11 @@ const Projects = () => {
   "Achieved zero-downtime deployments using Nginx Ingress and AWS ALB integration with Kubernetes services"
 ],
 
-      tags: ["Jenkins", "HashiCorp Vault", "AWS", "Terraform", "Security", "IAM"],
+      tags: [
+  "Jenkins", "SonarQube", "Docker", "Nexus", "ArgoCD", 
+  "AWS EKS", "Kubernetes", "Prometheus", "Grafana", 
+  "CI/CD", "Slack Integration"
+],
       featured: false
     }
   ];
