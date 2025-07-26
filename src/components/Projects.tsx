@@ -45,6 +45,25 @@ const Projects = () => {
       ],
       tags: ["Jenkins", "HashiCorp Vault", "AWS", "Terraform", "Security", "IAM"],
       featured: false
+    },
+    {
+      type: "devops-project",
+      title: " FullStackDevOps Blueprint – Code-to-Cloud Automation with Observability",
+      link: "https://github.com/NORTEX0030/FullStackDevOps",
+      description: "This project demonstrates a complete DevOps lifecycle from development to deployment on AWS EKS with built-in observability and quality gates.",
+     achievements: [
+  "Designed and implemented an end-to-end CI/CD pipeline using Jenkins, enabling automated build, test, and deployment of Java applications to AWS EKS",
+  "Integrated SonarQube for code quality analysis and enforced quality gates, reducing bugs and vulnerabilities before deployment",
+  "Built and pushed Docker images to Nexus repository, streamlining container management across environments",
+  "Automated application deployments on Amazon EKS using ArgoCD, ensuring GitOps-driven continuous delivery with rollback capabilities",
+  "Set up centralized monitoring and alerting using Prometheus and Grafana, improving observability and reducing downtime by 70%",
+  "Enabled Slack integration for real-time CI/CD pipeline notifications (success/failure/abort), enhancing developer feedback loops",
+  "Established namespace-level separation and resource controls within Kubernetes to support multi-environment deployments (dev, stage, prod)",
+  "Achieved zero-downtime deployments using Nginx Ingress and AWS ALB integration with Kubernetes services"
+],
+
+      tags: ["Jenkins", "HashiCorp Vault", "AWS", "Terraform", "Security", "IAM"],
+      featured: false
     }
   ];
 
